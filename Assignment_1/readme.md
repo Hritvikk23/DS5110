@@ -1,8 +1,8 @@
-DS 5110 - Assignment
+##DS 5110 - Assignment
 
-
-Python version  = 3.12.4
-You can use pip install -r requirements.txt to install all the libraries that are used
+##Setup
+1.Python version  = 3.12.4.
+2.You can use pip install -r requirements.txt to install all the libraries that are used
 
 ## How to Run
 
