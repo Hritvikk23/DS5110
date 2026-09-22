@@ -19,6 +19,4 @@ The data prints:
 
 ## AI Use
 1. Used claude for the command to go to the previous folder in git bash 
-x
-
 
