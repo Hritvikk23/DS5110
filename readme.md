@@ -8,7 +8,8 @@
 
 1. git clone https://github.com/Hritvikk23/DS5110.git
 2. cd DS5110
-3. type "pip install -r requirements.txt" &&  "python src/coffee.py" to install the requirements and run the program
+3. Copy the next line to install the requirements and run the program
+4. pip install -r requirements.txt &&  python src/coffee.py 
 
    
 ## Output
