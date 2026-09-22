@@ -6,11 +6,10 @@
 
 ## How to Run
 
-1. Clone the code from the repo
-2. If Downloading from ZIP,extract it
-3. cd DS-5110main
-4. type pip install -r requirements.txt to install the requirements
-5. type python src/coffee.py to run
+1. git clone https://github.com/Hritvikk23/DS5110.git
+3. cd DS5110
+4. type "pip install -r requirements.txt" to install the requirements
+5. type "python src/coffee.py" to run
    
 ## Output
 The data prints:
