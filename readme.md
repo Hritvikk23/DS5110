@@ -21,6 +21,6 @@ The data prints:
 5. Bar chart of revenue by product 
 
 ## AI Use
-1. Used Claude for the command to turn notebook into a pipeline
-2. Used claude for the command to go to the previous folder in git bash 
-
+1. Used Claude for the command to convert the notebook into a pipeline script (nbconvert).
+2. Used Claude for the command to navigate to the correct folder in Git Bash.
+3. Used Claude to debug path and setup issues when running the pipeline on a different machine.
