@@ -23,4 +23,4 @@ The data prints:
 ## AI Use
 1. Used Claude for the command to convert the notebook into a pipeline script (nbconvert).
 2. Used Claude for the command to navigate to the correct folder in Git Bash.
-3. Used Claude to debug path and setup issues when running the pipeline on a different machine.
+3. Used Claude to debug the code
