@@ -5,7 +5,7 @@
 
 # In[1]:
 
-
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # In[2]:
 
 
-df = pd.read_csv("../data/raw/coffee_sales.csv")
+df = pd.read_csv("data/raw/coffee_sales.csv")
 df.head()
 
 
@@ -31,7 +31,7 @@ df.head()
 
 daily = df.groupby("date")["revenue"].sum()
 avg_daily = daily.mean()
-daily
+print(f"{daily}")
 
 
 # ### Average Daily Revenue
@@ -64,7 +64,9 @@ by_product = df.groupby("product")["revenue"].sum()
 by_product.plot(kind="bar")
 plt.ylabel("Total revenue ($)")
 plt.title("Revenue by product")
-plt.savefig("../output/revenue_by_product.png")
+
+os.makedirs("output", exist_ok=True)
+plt.savefig("output/revenue_by_product.png")
 plt.show()
 
 
