@@ -20,5 +20,6 @@ The data prints:
 5. Bar chart of revenue by product 
 
 ## AI Use
-1. Used claude for the command to go to the previous folder in git bash 
+1. Used Claude for the command to turn notebook into a pipeline
+2. Used claude for the command to go to the previous folder in git bash 
 
