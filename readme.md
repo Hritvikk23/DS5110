@@ -6,8 +6,11 @@
 
 ## How to Run
 
-1. To run the pipeline install the requirements
-2. type python src/coffee.py
+1. Clone the code from the repo
+2. If Downloading from ZIP,extract it
+3. cd DS-5110main
+4. type pip install -r requirements.txt to install the requirements
+5. type python src/coffee.py to run
    
 ## Output
 The data prints:
